@@ -1,0 +1,116 @@
+html, body, #map-canvas
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.afterMenu{
+    margin-top: 129px;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-default{
+    border: none;
+    background: none;
+    background-color: #cfcfcf;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #737373;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li:hover {
+    background-color: #737373;
+}
+
+.topButton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.grey-section{
+    background-color: #8F8F8F;
+    line-height: 60px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.grey-section span {
+    padding-left: 20px;
+}
+
+.blue-section{
+     background-color: #3c5d9b;
+     height: 150px;
+}
+
+.detail-share{
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    line-height: 70px;
+}
+
+.detail-share span{
+    padding-right: 30px;
+}
+
+.detail-share img{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.detail-likes{
+    color: #fff;
+    font-weight: bold;
+     font-size: x-large;
+    text-align: center;
+    line-height: 70px;
+}
+
+.detail-underMap{
+    color: #ffffff;
+    font-size: x-large;
+    line-height: 150px;
+    text-align: center;
+}
+
+.detail-image{
+    margin: 0;
+    padding: 0;
+    background-color: #cfcfcf;
+}
+
+.chat-section {
+    padding-top: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#grid div div .thumbnail-caption{
+    background: rgba(39, 8, 139, 0.22);
+}
+
+#grid div:first-child div .thumbnail-caption{
+    background: rgba(202, 89, 177, 0.18);
+
+}
+
+#grid div:first-child div{
+        color: #fff;
+}
+
+.category-navbar{
+    margin-left: 200px;
+
+}
